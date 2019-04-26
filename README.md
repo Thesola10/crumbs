@@ -24,6 +24,16 @@ On macOS you can install crumbs with [Homebrew](https://brew.sh) like this:
 $ brew install mhubig/crumbs/crumbs
 ```
 
+### Nix package
+
+A package is available on the Nix package repository, for installing on Linux and macOS. It is currently being independently managed by [TheSola10](https://github.com/thesola10)
+
+You can install crumbs like this:
+
+'''shell
+$ nix-env -iA nixpkgs.crumbs
+'''
+
 ### Prerequisites
 
 In order to compile and install crumbs on your local system you the following software must be available on the system:
