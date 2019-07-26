@@ -30,9 +30,9 @@ A package is available on the Nix package repository, for installing on Linux an
 
 You can install crumbs like this:
 
-'''shell
+```shell
 $ nix-env -iA nixpkgs.crumbs
-'''
+```
 
 ### Prerequisites
 
